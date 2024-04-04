@@ -1,0 +1,29 @@
+.Movies-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px;
+  padding: 10px;
+  min-width: 200px;
+}
+
+.Movies-card a {
+  color: white;
+}
+
+.Movies-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.Movies-over {
+  font-size: small;
+  color: grey;
+}
+
+.Movies-pop {
+  font-weight: 900;
+}
