@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #0ab9ea;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px;
+}
+
+.movieImg {
+  width: 300px;
+}
+
+.link {
+  color: white;
+  font-size: 20px;
+}
+
+.thumb {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+.overview {
+  font-size: small;
+  color: grey;
+}
+
+.popularity {
+  font-weight: 900;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}

@@ -1,0 +1,47 @@
+.root {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #282c34;
+}
+
+.header {
+  min-height: 18vh;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: start;
+  gap: 30px;
+  padding: 10px 20px 10px 20px;
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 700;
+
+  &:hover {
+    color: rgb(0, 72, 255);
+  }
+}
+
+.main {
+  color: white;
+  min-height: 98vh;
+}
+
+.logo {
+  width: 100px;
+  filter: invert(0.8);
+}
